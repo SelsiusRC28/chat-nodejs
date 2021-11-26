@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chat Websockets</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="chat" id="chat">
+		</div>
+		<input name="" placeholder="username" class="form-control mb-2" id="username">
+		<input name="" placeholder="message" class="form-control mb-2" id="message">
+		<button class="btn btn-primary btn-block" id="send">Send</button>
+	</div>
+</body>
+<script src="/socket.io/socket.io.js" ></script>
+<script type="text/javascript" src="/main.js"></script>
+</html>

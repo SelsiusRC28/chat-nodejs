@@ -1,0 +1,21 @@
+.container{
+	width: 500px !important;
+	background: #eee;
+	margin-top: 25px;
+	padding: 20px;
+}
+
+.chat{
+	background: white;
+	min-height: 100px;
+	padding: 10px;
+	margin-bottom: 10px;
+	max-height: 500px;
+	overflow-y: scroll;
+
+}
+
+p{
+	background: #eee;
+	padding: 5px;
+}
